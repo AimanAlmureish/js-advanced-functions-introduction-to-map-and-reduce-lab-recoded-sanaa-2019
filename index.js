@@ -53,27 +53,27 @@
     }
     
     
-    function reduceToAllTrue(array){
-     let bools = true;
-      array.forEach(element=>{
-        if(Boolean(element) == true){
-          bools == true
-       }else if(Boolean(element)== false){
-         bools == false
-          }})
-      return bools
-    }
+    // function reduceToAllTrue(array){
+    // let bools = true;
+    //   array.forEach(element=>{
+    //     if(Boolean(element) == true){
+    //       bools == true
+    //   }else if(Boolean(element)== false){
+    //     bools == false
+    //       }})
+    //   return bools
+    // }
     
     
-    function reduceToAnyTrue(array){
-     let bools = true;
-      array.forEach(element=>{
-      if(Boolean(element) == true || Boolean(element) == false ){
-          bools == true;
-        }
-      })
-      return bools
-    }
+    // function reduceToAnyTrue(array){
+    // let bools = true;
+    //   array.forEach(element=>{
+    //   if(Boolean(element) == true || Boolean(element) == false ){
+    //       bools == true;
+    //     }
+    //   })
+    //   return bools
+    // }
     
     
  
