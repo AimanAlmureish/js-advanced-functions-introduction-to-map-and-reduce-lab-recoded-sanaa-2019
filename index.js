@@ -96,7 +96,7 @@ function reduceToAnyTrue(array){
         bools = bools || Boolean(element);
        
       }
-      return startingPoint;
+      return bools;
   }
     
     
