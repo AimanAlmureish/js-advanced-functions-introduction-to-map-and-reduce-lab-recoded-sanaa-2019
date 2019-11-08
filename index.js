@@ -90,10 +90,10 @@
 
 function reduceToAnyTrue(array){
 
-    let startingPoint= false;
+    let bools= false;
   
       for( const element in sourceArray){
-        startingPoint = startingPoint || Boolean(element);
+        bools = bools || Boolean(element);
        
       }
       return startingPoint;
