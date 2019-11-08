@@ -92,10 +92,10 @@ function reduceToAnyTrue(array){
 
     let bools= false;
   
-      for( const element of array){
+     
+      array.forEach(element=>{
         bools = bools || Boolean(element);
-       
-      }
+      } )
       return bools;
   }
     
