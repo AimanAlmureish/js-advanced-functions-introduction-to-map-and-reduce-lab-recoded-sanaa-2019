@@ -79,23 +79,20 @@
     
     function reduceToAllTrue(sourceArray){
 
-    let startingPoint= true;
+    let bools= true;
   
-      for( const element of sourceArray){
-        //  console.log(startingPoint && Boolean(element));
-        startingPoint = startingPoint && Boolean(element);
+      for( const element in sourceArray){
+        bools = bools && Boolean(element);
       } 
-      return startingPoint;
+      return bools;
   }
 
- //console.log(reduceToAllTrue(sourceArray));
 
 function reduceToAnyTrue(sourceArray){
 
     let startingPoint= false;
   
       for( const element of sourceArray){
-        //  console.log(startingPoint || Boolean(element));
         startingPoint = startingPoint || Boolean(element);
        
       }
