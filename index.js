@@ -88,11 +88,11 @@
   }
 
 
-function reduceToAnyTrue(sourceArray){
+function reduceToAnyTrue(array){
 
     let startingPoint= false;
   
-      for( const element of sourceArray){
+      for( const element in sourceArray){
         startingPoint = startingPoint || Boolean(element);
        
       }
