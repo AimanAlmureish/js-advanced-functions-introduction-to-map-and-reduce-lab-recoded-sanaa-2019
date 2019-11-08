@@ -77,11 +77,11 @@
     
     
     
-    function reduceToAllTrue(sourceArray){
+    function reduceToAllTrue(array){
 
     let bools= true;
   
-      for( const element in sourceArray){
+      for( const element in array){
         bools = bools && Boolean(element);
       } 
       return bools;
