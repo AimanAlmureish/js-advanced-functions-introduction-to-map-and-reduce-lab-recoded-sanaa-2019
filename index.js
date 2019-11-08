@@ -81,7 +81,7 @@
 
     let bools= true;
   
-      for( const element in array){
+      for( const element of array){
         bools = bools && Boolean(element);
       } 
       return bools;
@@ -92,7 +92,7 @@ function reduceToAnyTrue(array){
 
     let bools= false;
   
-      for( const element in array){
+      for( const element of array){
         bools = bools || Boolean(element);
        
       }
